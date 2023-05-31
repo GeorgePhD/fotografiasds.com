@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* background: url("img/portada.jpg");
+    background-size: 100%; */
+}
+
+.images_autumn {
+    width: 100%;
+    
+}
+.images_autumn img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 250px;
+    /* border: 1px solid black;
+    border-radius: 10px; */
+    
+}
+.carouselImg {
+    width: min(100px, 100);
+}
+
