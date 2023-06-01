@@ -2,23 +2,36 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'roboto', arial, helvetica, sans-serif;
 }
 
 body {
     /* background: url("img/portada.jpg");
     background-size: 100%; */
 }
-
+h5 {
+    margin-left: 2%;
+    font-size: 30px;
+}
+.acerca_p {
+    font-size: 1rem;
+    padding: 5px;
+    text-align: start;
+    width: 90%;
+    margin-left: 5%;
+}
 .images_autumn {
     width: 100%;
     
 }
-.images_autumn img {
+.images img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: 250px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     /* border: 1px solid black;
     border-radius: 10px; */
     
