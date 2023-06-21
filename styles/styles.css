@@ -115,17 +115,25 @@ footer p {
 }
 #carouselExampleInterval {
     margin-top: -50px;
-
 }
-
-
 .navbar {
     height: 15%;
 }
 
+
+
 @media only screen and (min-width: 768px) {
+
+
+    .carousel {
+        width: 1000px;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        box-shadow: 5px 8px 7px rgb(109, 108, 108);
+    }
     .carousel-inner {
-        margin-top: 7%;
+        margin-top: 13%;
         margin-bottom: 5%;
     }
     .carousel-item {
@@ -137,16 +145,24 @@ footer p {
     }
     .carousel-item img {
         width: 100%;
-        height: 600px;
+        height: 500px;
         
         
     }
-    .carousel {
-        width: 1200px;
-        margin-left: auto;
-        margin-right: auto;
-        box-shadow: 5px 8px 7px rgb(109, 108, 108);
+    /* fading effects start */
+    .carousel-img {
+        opacity: .7;
+        transition: opacity 2.5s ease;
+        
+
     }
+    .carousel-img.active {
+        opacity: 1;
+        
+        /* transition: opacity 0.5s ease-in-out; */
+    }
+
+     /* fading effects end */
     
     /* .social-media-icons {
         display: none;
