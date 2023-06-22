@@ -35,6 +35,10 @@ h5 {
 }
 .carousel-item img {
     height: 250px;
+    width: 100%;
+}
+.carousel-img {
+    width: 100%;
 }
 .social-media-icons {
     
@@ -151,8 +155,8 @@ footer p {
     }
     /* fading effects start */
     .carousel-img {
-        opacity: .7;
-        transition: opacity 2.5s ease;
+        opacity: .6;
+        transition: opacity 4s ease-out;
         
 
     }
