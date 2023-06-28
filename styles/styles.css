@@ -4,7 +4,30 @@
     box-sizing: border-box;
     font-family: 'roboto', arial, helvetica, sans-serif;
 }
-
+.contact-body {
+    /* background-image: url('../img/puerto_natales.webp'); */
+    position: fixed;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    top: 0;
+    
+}
+.contact-body img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+html, body {
+    height: 100%;
+}  
+/* big screen menu start */
+.menu-big-screen {
+    display: none;
+    
+}
+/* big screen menu end */
 /* body {
     /* background: url("img/portada.jpg");
     background-size: 100%; */
@@ -39,6 +62,78 @@ h5 {
 }
 .carousel-img {
     width: 100%;
+}
+
+.flex-contact {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+    top: 0;
+}
+
+.contact-p {
+    font: 'roboto', arial, helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 800;
+    color: rgb(96, 95, 95);
+    
+}
+.contact-p1 {
+    font: 'roboto', arial, helvetica, sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: 800;
+    color: rgb(96, 95, 95);
+    margin-top: 25%;
+    
+}
+.contact-p a {
+    color: rgb(96, 95, 95);
+    font-weight: 800;
+
+}
+.contact-p a:hover {
+    color: rgb(121, 128, 238);
+    font-weight: 1000;
+    transition: .3s ease-in-out;
+    
+}
+.contact-icons{
+    display: grid;
+    /* gap: .1rem; */
+    grid-template-columns: repeat(3,1fr);
+    width: min(60%, 75rem);
+    padding-block: 2rem;
+    gap: 15px;
+    margin-top: 10%;
+}
+.ig-icon-contact,.wzp-icon-contact,.mail-icon-contact {
+    width: 40px;
+    height: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    text-decoration: none;
+    color: rgb(111, 112, 112);
+}
+.ig-icon-contact:hover, .wzp-icon-contact:hover, .mail-icon-contact:hover{
+    transform: scale(1.2) rotate(360deg);;
+    transition: .2s ease-in-out;
+}
+.ig-icon-contact:hover {
+    color: rgb(251, 129, 150);
+}
+.wzp-icon-contact:hover {
+    color: rgb(48, 253, 38);
+}
+.mail-icon-contact:hover {
+    color: rgb(248, 45, 45);
 }
 .social-media-icons {
     
@@ -85,7 +180,7 @@ footer p {
     clear: both;
 } */
 .acerca_p {
-    font-family: 'Roboto';
+    font-family: 'Monserrat';
     font-size: 15px;
     padding: 5%;
     margin-top: 5%;
@@ -127,8 +222,34 @@ footer p {
 
 
 @media only screen and (min-width: 768px) {
-
-
+    
+    .big_title {
+        font-size: 10px;
+        margin-left: 1%;
+    }
+    .fh5 {
+        margin-left: 3%;
+        margin-top:-130px;
+        font-size: 17px;
+    }
+    .big-screen-item {
+        display: inline-block;
+        list-style-type: none;
+        padding: 1px;
+        color: grey;
+        margin-top: 30px;
+        overflow: hidden;
+    }
+    .big-screen-item a {
+        color: rgb(75, 74, 74);
+        text-decoration: none;
+        font-size: 20px;
+        
+        
+    }
+    .big-screen-item a:hover {
+        color: rgb(75, 74, 74);
+    }
     .carousel {
         width: 1000px;
         height: 500px;
@@ -153,28 +274,32 @@ footer p {
         
         
     }
-    /* fading effects start */
-    .carousel-img {
-        opacity: .6;
-        transition: opacity 4s ease-out;
-        
-
-    }
-    .carousel-img.active {
-        opacity: 1;
-        
-        /* transition: opacity 0.5s ease-in-out; */
-    }
-
-     /* fading effects end */
-    
-    /* .social-media-icons {
-        display: none;
-    } */ /* it disappears the icon from the menu too */
     .navbar-brand.big_title {
         font-size: 40px;
         color: rgb(88, 87, 87);
     }
+
+
+    /* navbar toggler start */ /* when uncommented, the navbar will vanish from big screens */
+    
+    .navbar-toggler {
+        display: none; /* Hide the navbar toggler button */
+    }
+    .navbar-nav {
+        display: block; /* Show the navbar menu as a regular menu */
+    }
+    .navbar-collapse.collapse {
+        display: none !important; /* Hide the collapsed navbar */
+    }
+
+    .navbar-nav .nav-item {
+        margin-bottom: 5px; /* Add some spacing between menu items */
+    }
+
+    .offcanvas {
+        display: none;
+    }  
+    /* navbar toggler end */
     .acerca_p {
         font-size: 20px;
         width: 60%;
@@ -193,4 +318,222 @@ footer p {
         margin-left: auto;
         margin-right: auto;
     }
+    
+    .menu-big-screen {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust the column size as needed */
+        grid-gap: 10px; /* Adjust the gap between menu items */
+        /* display: block; */
+        margin-right: 5%;
+        
+        /* border: 1px solid rgb(148, 147, 147); */
+        
+    }
+    
+    .index-footer {
+        
+        width: 100%;
+        /* background-color: rgb(0, 0, 0); */
+        display: block;
+        margin-top: -25px;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(255, 255, 255);
+        
+    }
+    .index-footer p {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+        
+    }
+}
+@media only screen and (min-width: 1024px) {
+
+    .navbar-brand.big_title {
+        font-size: 30px;        
+        overflow: hidden;
+    }
+    .fh5 {
+        margin-top:-40px;
+        margin-left: 3%;
+        font-size: 1rem;
+        overflow: hidden;
+    }
+    .menu-big-screen {
+        margin-right: 5%;
+        grid-gap: 1px; /* Adjust the gap between menu items */
+    }
+    .big-screen-item {
+        display: inline-block;
+        list-style-type: none;
+        margin-top: 20px;
+        padding: 1px;
+        color: grey;
+    }
+    .big-screen-item a  {
+        font-size: 14px;
+        text-decoration: none;
+        color: rgb(91, 90, 90);
+    }
+    .big-screen-item a:hover {
+        color: black;
+    }
+    .index-footer {
+        
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: -80px;
+        
+    }
+
+}
+@media only screen and (min-width: 1366px) {
+    .big_title {
+        margin-left: 13%;
+        overflow: hidden;
+    }
+    .fh5 {
+        margin-left: 14%;
+        font-size: 1rem;
+        margin-top: -20px;
+        overflow: hidden;
+    }
+    .menu-big-screen {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust the column size as needed */
+        grid-gap: 10px; /* Adjust the gap between menu items */
+        /* display: block; */
+        margin-right: 13%;
+        
+        /* border: 1px solid rgb(148, 147, 147); */
+        
+    }
+    .big-screen-item {
+        display: inline-block;
+       
+        list-style-type: none;
+        margin-top: 20px;
+        padding: 1px;
+        color: grey;
+    }
+    .big-screen-item a  {
+        text-decoration: none;
+        color: rgb(91, 90, 90);
+        font-size: 14px;
+        
+    }
+    .big-screen-item a:hover {
+        color: black;
+    }
+    .index-footer {
+        
+        margin-left: -200px;
+        margin-right: auto;
+        margin-top: -80px;
+        
+    }
+
+}
+
+@media only screen and (min-width: 1920px) and (max-height: 1080px) {
+    .big_title {
+        margin-left: 21%;
+        overflow: hidden;
+    }
+    .fh5 {
+        margin-left: 22%;
+        font-size: 1rem;
+        margin-top: -40px;
+        overflow: hidden;
+    }
+    .contact-p1 {
+        font: 'roboto', arial, helvetica, sans-serif;
+        font-size: 20px;
+        padding: 10px;
+        font-weight: 800;
+        color: rgb(96, 95, 95);
+        margin-top: 1%;
+        
+    }
+    .index-footer {
+        
+        margin-left: -230px;
+        margin-right: auto;
+        margin-top: -1px;
+        
+    }
+    .menu-big-screen {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust the column size as needed */
+        grid-gap: 10px; /* Adjust the gap between menu items */
+        /* display: block; */
+        margin-right: 450px;
+        
+        /* border: 1px solid rgb(148, 147, 147); */
+        
+    }
+    .big-screen-item  {
+        display: inline-block;
+        margin-top: 10px;
+        padding: 1px;
+        
+        /* border: 1px solid rgb(148, 147, 147); */
+
+    }
+    .big-screen-item a  {
+        font-size: 17px;
+        text-decoration: none;
+        color: rgb(91, 90, 90);
+    }
+    .big-screen-item a:hover {
+        color: black;
+    }
+    
+    .carousel {
+        width: 1100px;
+        
+    }
+    .acerca_p {
+        font-family: 'Caprasimo';
+        
+        font-size: 18px;
+        padding: 5%;
+        margin-top: 1.5%;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgba(0, 0, 0, 0.58);
+        border: 1px solid rgb(148, 147, 147);
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px rgb(124, 123, 123);
+        width: 40%;
+    }
+    .index-footer p {
+        font-size: 15px;
+        
+    }
+    .index-footer  {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 60px;
+        
+    }
+    .contact-icons {
+        gap: 50px;
+    }
+    .ig-icon-contact,.wzp-icon-contact,.mail-icon-contact {
+        width: 50px;
+        height: 50px;
+        
+        
+    }
+    .images,.images-desktop {
+        width: 50%;
+        height: 800px;
+    }
+    
+
+
 }
