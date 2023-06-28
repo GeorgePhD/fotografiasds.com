@@ -22,3 +22,4 @@ function fadeInNextImage() {
 setInterval(fadeInNextImage, 3000);
 
 /* fading effects end */
+
