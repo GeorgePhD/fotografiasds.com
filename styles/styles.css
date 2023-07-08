@@ -92,13 +92,20 @@ h5 {
     font-weight: 800;
     color: rgb(96, 95, 95);
     margin-top: 25%;
+    text-align: center;
     
 }
 .contact-p a {
     color: rgb(96, 95, 95);
     font-weight: 800;
+    text-align: center;
 
 }
+/* .flex-contact.contact-p.contact-p__a {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+} */
 .contact-p a:hover {
     color: rgb(121, 128, 238);
     font-weight: 1000;
