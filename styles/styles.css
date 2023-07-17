@@ -28,6 +28,9 @@ html, body {
     display: none;
     
 }
+.contact-big-title {
+    font-size: 1.4rem;
+}
 /* big screen menu end */
 /* body {
     /* background: url("img/portada.jpg");
@@ -49,10 +52,10 @@ h5 {
     margin-top: -12%;
     margin-left: 6.3%;
 }
-.carousel-inner {
+.carousel-inner { /* positions the carousel */
     
-    margin-top: 25%;
-    margin-bottom: 25%;
+    margin-top: 50%;
+    /* margin-bottom: 25%; */
 }
 .carousel-item {
     height: 250px;
@@ -176,11 +179,6 @@ h5 {
 .mail-icon {
     color: rgb(125, 122, 122); 
 }
-
-/* footer p {
-    text-align: center;
-    
-} */
 .devel0pme {
     font-weight: bold;
 }
@@ -199,6 +197,18 @@ h5 {
     border-radius: 5px;
     box-shadow: 3px 3px 10px rgb(124, 123, 123);
     width: 90%;
+}
+/* .profile-img {
+    background-color: black;
+} */
+.profile-img__1 {
+    display: block;
+    margin-left: auto;
+    margin-right:auto;
+    width: 90%;
+    border: 1px solid rgb(148, 147, 147);
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgb(124, 123, 123);
 }
 .images_autumn {
     width: 100%;
@@ -225,6 +235,34 @@ h5 {
 }
 .navbar {
     height: 15%;
+}
+.index-footer {
+        
+    width: 100%; 
+    display: block;
+    margin-top: 10rem;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: rgb(255, 255, 255);
+    
+}
+.index-footer__p {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 0.7rem;
+    
+}
+.offcanvas-footer {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.offcanvas-footer__p {
+    text-align: center;
+    margin-bottom: 0;
 }
 
 
@@ -341,9 +379,9 @@ h5 {
     .index-footer {
         
         width: 100%;
-        /* background-color: rgb(0, 0, 0); */
+        background-color: rgb(0, 0, 0);
         display: block;
-        margin-top: -25px;
+        /* margin-top: -25px; */
         margin-left: auto;
         margin-right: auto;
         background-color: rgb(255, 255, 255);
