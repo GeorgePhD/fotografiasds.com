@@ -1,10 +1,72 @@
 * {
-    
+    /* font-size: 10px; */
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'roboto', arial, helvetica, sans-serif;
 }
+/* flex-gallery starts here */
+
+.flex-gallery__h1 {
+    
+    font-size: 4rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin-bottom: 1rem;
+}
+.flex-gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2rem;
+    width: 90%;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    margin: auto auto;
+    margin-top: 2rem;
+    
+    
+}
+.flex-gallery__img {
+    align-items: center;
+    justify-content: center;
+    width: 250px;
+    height: 250px;
+    flex:1;
+    border-radius: 0.5rem;
+}
+.popup-img {
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, .9);
+    width: 100%;
+    height: 100%;
+    z-index: 100;
+    display: none;
+}
+.popup-img__span {
+    position:absolute;
+    top: 0;
+    right: 1rem;
+    font-size: 4rem;
+    font-weight: bolder;
+    color: #fff;
+    cursor: pointer;
+    z-index: 100;
+}
+.popup-img__img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 1rem;
+    width: 60%;
+    object-fit: cover;
+}
+
+/* flex-gallery ends here */
 .contact-body {
     /* background-image: url('../img/puerto_natales.webp'); */
     position: fixed;
@@ -214,13 +276,18 @@ h5 {
     width: 100%;
     
 }
+.images {
+    max-width: 100%;
+    height: auto;
+    
+}
 .images img {
     display: block;
     margin-left: auto;
     margin-right: auto;
     padding: 10px;
-    width: 100%;
-    height: 100%;
+    max-width: 100%;
+    height: auto;
     object-fit: cover;
     /* border: 1px solid black;
     border-radius: 10px; */
@@ -268,6 +335,9 @@ h5 {
 
 
 @media only screen and (min-width: 768px) {
+    .popup-img__img {
+        width: 95%;
+    }
     
     .big_title {
         font-size: 10px;
@@ -405,6 +475,7 @@ h5 {
     }
 }
 @media only screen and (min-width: 1024px) {
+    
 
     .profile-img__1 {
         
