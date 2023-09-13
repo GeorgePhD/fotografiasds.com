@@ -609,6 +609,41 @@ h5 {
     }
     
 }
+@media only screen and (min-width: 935px) {
+    .title-container.title-container-about {
+        margin-left: 69%;
+    }
+    .fh5.about-fh5 {
+        margin-left: 69%;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    nav {
+        margin-left: -100rem;
+    }
+    .acerca_p {
+        font-family: 'Caprasimo';
+        width: 70%;
+    }
+    .acerca_p_2 {
+        font-family: 'Caprasimo';
+        font-size: 18px;
+        padding: 5%;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgba(0, 0, 0, 0.58);
+        border: 1px solid rgb(148, 147, 147);
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px rgb(124, 123, 123);
+        width: 60%;
+    }
+    .profile-img__1 {
+        
+        width: 70%;
+        
+    }
+}
 @media only screen and (min-width: 1024px) {
     
 
@@ -656,7 +691,35 @@ h5 {
     }
 
 }
-@media only screen and (min-width: 1366px) {
+@media only screen and (min-width: 1200px) {
+    .title-container.title-container-about {
+        margin-left: 83%;
+    }
+    .fh5.about-fh5 {
+        margin-left: 83%;
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+    nav {
+        margin-left: -255rem;
+    }
+    .acerca_p {
+        font-family: 'Caprasimo';
+        width: 60%;
+    }
+    .acerca_p_2 {
+        font-family: 'Caprasimo';
+        font-size: 18px;
+        padding: 5%;
+        margin-top: 1%;
+        margin-left: auto;
+        margin-right: auto;
+        color: rgba(0, 0, 0, 0.58);
+        border: 1px solid rgb(148, 147, 147);
+        border-radius: 5px;
+        box-shadow: 3px 3px 10px rgb(124, 123, 123);
+        width: 60%;
+    }
     .profile-img__1 {
         
         width: 60%;
@@ -671,16 +734,6 @@ h5 {
         font-size: 1rem;
         margin-top: -20px;
         overflow: hidden;
-    }
-    .menu-big-screen {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Adjust the column size as needed */
-        grid-gap: 10px; /* Adjust the gap between menu items */
-        /* display: block; */
-        margin-right: 13%;
-        
-        /* border: 1px solid rgb(148, 147, 147); */
-        
     }
     .big-screen-item {
         display: inline-block;
@@ -707,7 +760,26 @@ h5 {
     }
 
 }
-@media screen and (min-width: 1720px) {
+@media screen and (min-width: 1500px) {
+    .title-container.title-container-about {
+        margin-left: 35%;
+    }
+    .fh5.about-fh5 {
+        margin-left: 35%;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    nav {
+        margin-left: -20rem;
+        margin-top: -1rem;
+        margin-bottom: 1rem;
+    }
+    .acerca_p {
+        font-family: 'Caprasimo';
+        width: 60%;
+        margin-top: 1%;
+    }
+    
     .fh5 {
         margin-left: 22%;
         margin-top: 5px;
@@ -717,19 +789,38 @@ h5 {
     }
     .menu-big-screen {
         margin-left: 38%;
+        
+    }
+    .acerca_p {
+        font-family: 'Caprasimo';
+        width: 60%;
+    }
+    .profile-img__1 {
+        
+        width: 60%;
+        
     }
 }
 @media screen and (min-width: 1920px) {
+    .title-container,
+    .title-container.title-container-about {
+        margin-left: 40%;
+    }
+    .fh5.about-fh5 {
+        margin-left: 41%;
+    }
+    nav {
+        margin-left: -19rem;
+    }
     .profile-img__1 {
         
-        width: 40%;
+        width: 50%;
         
     }
     .fh5 {
-        margin-left: 22%;
+        margin-left: 41%;
         font-size: 1rem;
-        /* margin-top: 3rem; */
-        /* overflow: hidden; */
+        
     }
     .contact-p1 {
         font: 'roboto', arial, helvetica, sans-serif;
@@ -744,6 +835,7 @@ h5 {
         font-size: 17px;
         text-decoration: none;
         color: rgb(91, 90, 90);
+        ;
     }
     .big-screen-item a:hover {
         color: black;
@@ -755,21 +847,10 @@ h5 {
         border-radius: 0.5rem;
         
     }
-    .acerca_p {
-        font-family: 'Caprasimo';
-        
-        font-size: 18px;
-        padding: 5%;
-        margin-top: 1.5%;
-        margin-left: auto;
-        margin-right: auto;
-        color: rgba(0, 0, 0, 0.58);
-        border: 1px solid rgb(148, 147, 147);
-        border-radius: 5px;
-        box-shadow: 3px 3px 10px rgb(124, 123, 123);
-        width: 40%;
-    }
-    
+    .acerca_p,
+    .acerca_p_2 {
+        width: 50%;
+    }    
     .index-footer  {
         display: block;
         margin-left: auto;
