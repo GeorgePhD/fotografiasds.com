@@ -3,8 +3,8 @@
 const carouselImages = document.querySelectorAll('.carousel-img');
 
 // Start with the first image as active
-let currentImageIndex = 0;
-carouselImages[currentImageIndex].classList.add('active');
+/* let currentImageIndex = 0;
+carouselImages[currentImageIndex].classList.add('active'); */
 
 // Function to fade in the next image
 function fadeInNextImage() {
@@ -23,3 +23,37 @@ setInterval(fadeInNextImage, 3000);
 
 /* fading effects end */
 
+/* new gallery starts here */
+
+const gridGallery = document.querySelector('.images-container');
+
+const getData = async () => {
+
+  const res = await fetch('../js/data.json');
+  const data = await res.json();
+
+  return data;
+}
+
+const displayGridGallery = async () => {
+
+  const images = await getData();
+
+  let imagesDisplay = images.map((img) => {
+
+    const {image, name, description } = img;
+
+    return `
+    <div>
+    <img class='grid-img' src=${image}>
+    <p>${name}</p>
+    <p>${description}</p>
+    </div>
+    `;
+  });
+
+  gridGallery.innerHTML = imagesDisplay.join('');
+}
+
+displayGridGallery();
+/* new gallery ends here */

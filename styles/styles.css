@@ -414,6 +414,10 @@ h5 {
 .navbar {
     height: 15%;
 }
+.menu-active {
+    color: black;
+    font-weight: bolder;
+}
 .index-footer {
         
     width: 100%; 
@@ -554,6 +558,25 @@ h5 {
         margin-left: auto;
         margin-right: auto;
     }
+    /* grid-container starts here */
+    .images-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+        grid-gap: 1rem;
+        margin: 7rem auto;
+        max-width: 80rem;
+        padding: 3rem;
+    }
+    .grid-img {
+        width: 100%;
+        border-radius: 0.5rem;
+        height: 300px;
+        max-height: 100%;
+        box-shadow: 1px 2px 10px grey;
+        margin-bottom: 0.5rem;
+    }
+    /* grid-container ends here */
+    
     
     .menu-big-screen {
         display: grid;
