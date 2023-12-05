@@ -1,3 +1,8 @@
+//dark-mode
+
+
+
+
 /* fading effects start */
 // Get the carousel images
 const carouselImages = document.querySelectorAll('.carousel-img');
@@ -23,7 +28,7 @@ setInterval(fadeInNextImage, 3000);
 
 /* fading effects end */
 
-/* new gallery starts here */
+/* new grid-gallery starts here */
 
 const gridGallery = document.querySelector('.images-container');
 
@@ -56,4 +61,4 @@ const displayGridGallery = async () => {
 }
 
 displayGridGallery();
-/* new gallery ends here */
+/* new grid-gallery ends here */
