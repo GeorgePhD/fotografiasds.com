@@ -16,31 +16,6 @@
     },
     {
         
-        "image": "../img/Ice-and-Winter/Cerro-Castillo-mountain-desktop.jpg",
-        "name": "Ice & winter",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
-        
-    },
-    
-    
-    {
-        
-        "image": "../img/Ice-and-Winter/Frosen-forest-2-desktop.jpg",
-        "name": "Ice & winter",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
-        
-    },
-    
-    {
-        
-        "image": "../img/Ice-and-Winter/Frosen-Forest-desktop.jpg",
-        "name": "Ice & winter",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
-        
-    },
-    
-    {
-        
         "image": "../img/Ice-and-Winter/Kayaking-in-the-ice-desktop.jpg",
         "name": "Ice & winter",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
@@ -86,14 +61,6 @@
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
         
     },
-    
-    {
-        
-        "image": "../img/Ice-and-Winter/winter-bigscreen-01.jpg",
-        "name": "Ice & winter y Parinacota",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
-        
-    },
     {
         
         "image": "../img/Ice-and-Winter/winter-bigscreen-02.jpg",
@@ -124,13 +91,6 @@
     },
     {
         
-        "image": "../img/Ice-and-Winter/winter-bigscreen-06.jpg",
-        "name": "Ice & winter",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
-        
-    },
-    {
-        
         "image": "../img/Ice-and-Winter/winter-bigscreen-07.jpg",
         "name": "Ice & winter",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
@@ -145,24 +105,9 @@
     },
     {
         
-        "image": "../img/Ice-and-Winter/winter-bigscreen-09.jpg",
-        "name": "Ice & winter",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
-        
-    },
-    {
-        
         "image": "../img/Ice-and-Winter/winter-bigscreen-10.jpg",
         "name": "Ice & winter",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
         
-    },
-    {
-        
-        "image": "../img/Ice-and-Winter/winter-bigscreen-11.jpg",
-        "name": "Ice & winter",
-        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
-        
     }
-
 ]
