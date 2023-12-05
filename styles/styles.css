@@ -5,6 +5,16 @@
     box-sizing: border-box;
     font-family: 'roboto', arial, helvetica, sans-serif;
 }
+.dark-mode {
+    background-color: black;
+    color: white;
+    transition: all 800ms ease-in-out;
+}
+.light-mode {
+    background-color: white;
+    color: black;
+    transition: all 800ms ease-in-out;
+}
 /* name animation starts here */
 .title-container {
     display: flex;
