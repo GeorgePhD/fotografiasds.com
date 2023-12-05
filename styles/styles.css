@@ -658,19 +658,6 @@ h5 {
         font-family: 'Caprasimo';
         width: 70%;
     }
-    .acerca_p_2 {
-        font-family: 'Caprasimo';
-        font-size: 18px;
-        padding: 5%;
-        margin-top: 1%;
-        margin-left: auto;
-        margin-right: auto;
-        color: rgba(0, 0, 0, 0.58);
-        border: 1px solid rgb(148, 147, 147);
-        border-radius: 5px;
-        box-shadow: 3px 3px 10px rgb(124, 123, 123);
-        width: 60%;
-    }
     .profile-img__1 {
         
         width: 70%;
@@ -738,19 +725,6 @@ h5 {
     }
     .acerca_p {
         font-family: 'Caprasimo';
-        width: 60%;
-    }
-    .acerca_p_2 {
-        font-family: 'Caprasimo';
-        font-size: 18px;
-        padding: 5%;
-        margin-top: 1%;
-        margin-left: auto;
-        margin-right: auto;
-        color: rgba(0, 0, 0, 0.58);
-        border: 1px solid rgb(148, 147, 147);
-        border-radius: 5px;
-        box-shadow: 3px 3px 10px rgb(124, 123, 123);
         width: 60%;
     }
     .profile-img__1 {
@@ -883,7 +857,7 @@ h5 {
     .acerca_p,
     .acerca_p_2 {
         width: 50%;
-    }    
+    }  
     .index-footer  {
         display: block;
         margin-left: auto;
