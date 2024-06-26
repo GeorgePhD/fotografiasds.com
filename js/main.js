@@ -1,3 +1,8 @@
+//dark-mode
+
+
+
+
 /* fading effects start */
 // Get the carousel images
 const carouselImages = document.querySelectorAll('.carousel-img');
@@ -41,14 +46,16 @@ const displayGridGallery = async () => {
 
   let imagesDisplay = images.map((img) => {
 
-    const {image, name, description } = img;
+    const {image, name, description } = img;  
 
     return `
-    <div>
-    <img class='grid-img' src=${image}>
-    <p>${name}</p>
-    <p>${description}</p>
-    </div>
+    
+      <div class='image-container'>
+        <img class='grid-img' src=${image}>
+        <h3 class='iceandwinter__content'>${name}</h3>
+        <p class='iceandwinter__content'>${description}</p>
+      </div>
+    
     `;
   });
 
@@ -56,4 +63,3 @@ const displayGridGallery = async () => {
 }
 
 displayGridGallery();
-/* new grid-gallery ends here */
