@@ -63,4 +63,3 @@ const displayGridGallery = async () => {
 }
 
 displayGridGallery();
-/* new grid-gallery ends here */
