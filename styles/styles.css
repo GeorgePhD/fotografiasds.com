@@ -598,17 +598,15 @@ h5 {
     margin-right: auto;
   }
   /* iceandwinter grid-container starts here */
-  .images-container,
-  .autumn__gallery {
+  .images__container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(17rem, auto));
     grid-gap: 1rem;
     margin: 0 auto;
     max-width: 80rem;
     margin-top: 8rem !important;
   }
-  .grid-img,
-  .autumn__gallery__img {
+  .grid__img {
     width: 100%;
     border-radius: 0.5rem;
     height: 300px;
@@ -616,8 +614,7 @@ h5 {
     box-shadow: 1px 2px 10px grey;
     margin-bottom: 0.5rem;
   }
-  .iceandwinter__content,
-  .autumn__gallery__description {
+  .grid__img__content {
     text-align: start;
     padding-left: 0.7rem;
   }

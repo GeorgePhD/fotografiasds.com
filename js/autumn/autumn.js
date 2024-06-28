@@ -1,10 +1,10 @@
 
 
-const autumnGallery = document.querySelector('.autumn__gallery');
+const autumnGallery = document.querySelector('.images__container');
 
 const fetchData = async () => {
     try {
-        const response = await fetch('../js/autumn.json');
+        const response = await fetch('../js/autumn/autumn.json');
         if (!response.ok) {
             throw new Error('Failed to fetch data');
         }
@@ -17,14 +17,15 @@ const fetchData = async () => {
 
 const displayGridGallery = (galleryData) => {
 
-    galleryData.forEach(element => {
+
+    galleryData.map(element => {
 
         autumnGallery.innerHTML += `
         
-            <div class="autumn__gallery__item">
-                <img src="${element.image}" alt="${element.name}" class="autumn__gallery__img">
-                <h3 class="autumn__gallery__title">${element.name}</h3>
-                <p class="autumn__gallery__description">${element.description}</p>
+            <div class="image__container">
+                <img src="${element.image}" alt="${element.name}" class="grid__img">
+                <h3 class="grid__img__content">${element.name}</h3>
+                <p class="grid__img__content">${element.description}</p>
             </div>
             
         `;
