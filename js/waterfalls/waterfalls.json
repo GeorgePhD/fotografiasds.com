@@ -1,0 +1,52 @@
+[
+    {
+        "image": "../img/waterfalls/waterfalls-1.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-2.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-3.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-4.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-5.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-6.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-7.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-8.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-9.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    },
+    {
+        "image": "../img/waterfalls/waterfalls-10.jpg",
+        "name": "Sunrise",
+        "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
+    }
+]
