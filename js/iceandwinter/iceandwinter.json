@@ -1,7 +1,6 @@
 [
     {
         "image": "../img/Ice-and-Winter/ice-and-winter-1.jpg",
-<<<<<<< HEAD
         "name": "Ice & winter",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
     },
@@ -194,15 +193,11 @@
     
     {
         "image": "../img/Ice-and-Winter/ice-and-winter-32.jpg",
-=======
->>>>>>> 6530592b83b1f8798eb2b4c909a14974a0eb4877
         "name": "Ice & winter",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
     },
     {
-<<<<<<< HEAD
-        "image": "../img/Ice-and-Winter/ice-and-winter-33.jpg",
-=======
+
         "image": "../img/Ice-and-Winter/ice-and-winter-2.jpg",
         "name": "Ice & winter",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
@@ -359,7 +354,6 @@
     },
     {
         "image": "../img/Ice-and-Winter/ice-and-winter-34.jpg",
->>>>>>> 6530592b83b1f8798eb2b4c909a14974a0eb4877
         "name": "Ice & winter",
         "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque molestias vitae esse suscipit dolores ea minima architecto neque nulla quia."
     }
